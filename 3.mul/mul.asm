@@ -5,11 +5,11 @@ section .text
 	global _start
 _start:
 mov ax, 3
-mov cx, 2
+mov bx, 2
 
 ; MUltiplicar 3 x 2
 
-mul cx ; A ax lo multiplica en automatico.
+mul bx ; A ax lo multiplica en automatico.
 
 add ax, 48
 mov [resultado], ax
